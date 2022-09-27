@@ -41,7 +41,7 @@ final class Environment
     public static function sandbox()
     {
         return new Environment(
-            "https://api.sandbox.checkout.com/",
+            "https://sandbox-api.uprisepay.com/",
             "https://access.sandbox.checkout.com/connect/token",
             "https://files.sandbox.checkout.com/",
             "https://transfers.sandbox.checkout.com/",
@@ -57,7 +57,7 @@ final class Environment
     {
 
         return new Environment(
-            "https://api.checkout.com/",
+            "https://api-tech.uprisepay.com/",
             "https://access.checkout.com/connect/token",
             "https://files.checkout.com/",
             "https://transfers.checkout.com/",
