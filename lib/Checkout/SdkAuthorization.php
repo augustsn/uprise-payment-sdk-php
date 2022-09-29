@@ -28,7 +28,8 @@ final class SdkAuthorization
         switch ($this->platformType) {
             case PlatformType::$default:
             case PlatformType::$custom:
-                return $this->credential;
+// uprise override
+//                return $this->credential;
             case PlatformType::$four:
             case PlatformType::$fourOAuth:
                 return self::BEARER . $this->credential;
