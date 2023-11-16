@@ -5,8 +5,8 @@ namespace Checkout;
 class StaticKeysCheckoutSdkBuilder extends AbstractStaticKeysCheckoutSdkBuilder
 {
 
-    const PUBLIC_KEY_PATTERN = "/^pk_(test_)?(\\w{8})-(\\w{4})-(\\w{4})-(\\w{4})-(\\w{12})$/";
-    const SECRET_KEY_PATTERN = "/^sk_(test_)?(\\w{8})-(\\w{4})-(\\w{4})-(\\w{4})-(\\w{12})$/";
+    const PUBLIC_KEY_PATTERN = "/^pk_.*$/";
+    const SECRET_KEY_PATTERN = "/^sk_.*$/";
 
     /**
      * @param string $publicKey
